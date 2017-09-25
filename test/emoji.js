@@ -60,7 +60,7 @@ describe("emoji.js", function () {
       var marocco = emoji.which('🇲🇦');
       should.exists(marocco);
       marocco.should.be.exactly('flag-ma');
-      
+
       // see issue #21
       mexico.should.not.equal(marocco);
     });
@@ -112,10 +112,10 @@ describe("emoji.js", function () {
     });
 
     it("should replace unknown emojis and wrap known emojis using cb functions", function () {
-      var coffee = emoji.emojify('I :unknown_emoji: :coffee:', 
+      var coffee = emoji.emojify('I :unknown_emoji: :coffee:',
         function(name) {
           return name;
-        }, 
+        },
         function(code, name) {
           return '<img alt="' + code + '" src="' + name + '.png" />';
         }
@@ -280,7 +280,7 @@ describe("emoji.js", function () {
     });
 
     it('Should be able to replace by callback function', function() {
-      var result = emoji.replace('There is no ⚠ on my hard drive', function (emoji) { 
+      var result = emoji.replace('There is no ⚠ on my hard drive', function (emoji) {
         return emoji.key;
       });
       result.should.equal('There is no warning on my hard drive');
