@@ -1,11 +1,11 @@
 {
-  "name": "node-emoji",
-  "version": "1.8.1",
+  "name": "emoji-node",
+  "version": "1.8.4",
   "description": "simple emoji support for node.js projects",
-  "author": "Daniel Bugl <daniel.bugl@touchlay.com>",
+  "author": "Arshpreet Wadehra <me@wadehrarshpreet.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/omnidan/node-emoji.git"
+    "url": "https://github.com/wadehrarshpreet/emoji-node"
   },
   "keywords": [
     "emoji",
@@ -20,7 +20,7 @@
     "ideograms"
   ],
   "bugs": {
-    "url": "https://github.com/omnidan/node-emoji/issues"
+    "url": "https://github.com/wadehrarshpreet/emoji-node/issues"
   },
   "dependencies": {
     "lodash.toarray": "^4.4.0"
