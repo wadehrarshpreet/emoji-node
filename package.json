@@ -1,6 +1,6 @@
 {
   "name": "emoji-node",
-  "version": "1.8.4",
+  "version": "1.8.5",
   "description": "simple emoji support for node.js projects",
   "author": "Arshpreet Wadehra <me@wadehrarshpreet.com>",
   "repository": {
